@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Job Application With Resume Upload</h1>
+    <h3>Contact Information</h3>
+    <form>
+        <label for="First Name">First Name <Span> *</Span></label><br>
+        <input type="text" id="FirstName" name="FirstName" placeholder=" Enter First Name" required />
+        <br>
+        <label for="Last Name">Last Name <Span> *</Span></label><br>
+        <input type="text" id="LastName" name="LastName" placeholder=" Enter Last Name" required>
+        <br>
+        <label for="Email">Email<Span> *</Span></label><br>
+        <input type="Email" id="Email" name="Email" placeholder=" Enter Email" required>
+        <br>
+        <label for="Phone">Phone<Span> *</Span></label><br>
+        <input type="Number" id="Phone" name="phone" placeholder=" Enter Phone" required>
+        <br>
+        <h3>Position</h3>
+        <label for="Postion">Position you are applying for <span>*</span> </label><br>
+        <input type="text" name="Postion" id="Postion" placeholder="Postion"><br>
+        <label for="Resume">Resume Upload</label><br>
+        <input type="file" name="resume" id="resume"> <br>
+        <label for="">Portfolio website</label><br>
+        <input type="url" name="Portfolio" id="Portfolio" placeholder="Url Website">
+        <br>
+        <label for="">When u can Start ?</label><br>
+        <input type="text" name="startwork" id="startwork" placeholder="start work">
+        <br><br>
+        <label>Are you willing to relocate ?</label><br>
+        <input type="radio" id="relocate" name="relocate" value="Yes">Yes<br>
+        <input type="radio" id="relocate" name="relocate" value="No">No<br>
+        <input type="radio" id="relocate" name="relocate" value="notSure">Not Sure<br>
+        <br>
+        <label for="">Last Company You Worked for</label> <br>
+        <input type="text" name="Company" id="Company"><br>
+        <br>
+        <label for=""> comments</label> <br>
+        <textarea name="comments" id="comments" cols="30" rows="6"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>

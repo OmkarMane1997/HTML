@@ -1,0 +1,248 @@
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <center><h1>Html From Tag..!</h1></center>
+    <br>
+    <hr>
+    <h3>Default Form.!</h3>
+    <form action="" method="post">
+        <button  type="submit">submit</button>
+        <button type="reset">reset</button>
+        <button type="button">button</button>
+
+    </form>
+
+    <h3>Example Form</h3>
+    <form>
+        <fieldset>
+            <legend>First Name</legend>
+            <label for="">Enter First Name:-</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="First Name" value="Agrawal" readonly required>
+        </fieldset>
+        <fieldset>
+            <legend>Middle Name</legend>
+            <label for="">Enter Middle NAme:</label>
+            <input type="text" name="MiddleName" id="MiddleName"  placeholder="MiddelName" required>
+        </fieldset>
+        <fieldset>
+            <legend> Last Name</legend>
+            <label for="">Enter last Name:-</label>
+            <input type="text" name="LastName" id="LastName" placeholder="Last Name" required>
+        </fieldset>
+        <fieldset>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+            <button type="button">Cancel</button>
+        </fieldset>
+    </form>
+    <hr>
+    <h3>Form Elemensts..!</h3>
+    <form action="" method="post">
+       
+        <fieldset>
+        <label for="">Enter First Name:-</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="First Name" value="Agrawal" readonly required>
+        <span> This id a text Box</span>
+        </fieldset>
+        <fieldset>
+            <legend>Middle Name</legend>
+            <label for="">Enter Middle NAme:</label>
+            <input type="text" name="MiddleName" id="MiddleName"  placeholder="MiddelName" required>
+            <span> This id a text Box</span>
+        </fieldset> 
+        <fieldset>
+            <legend>LastName</legend>
+            <label for="">Enter last Name :</label>
+            <input type="text" id="LastName" name="LastName" placeholder="Last Name" required>
+            <span> This is a textBox</span>
+        </fieldset>
+        <fieldset>
+            <legend>Button</legend>
+            
+            <input type="button" id="" name="button" >
+            <span> This is a button</span>
+        </fieldset>
+        <fieldset>
+            <legend>Language</legend>
+            <h3>Select Language</h3>
+            <label for="">Kannada</label>
+
+            <input type="checkbox" id="checkbox" name="checkbox" placeholder="checkbox" value="Kannada" required>
+            <span> This is a checkbox and used to select more than one options  </span>
+
+            <br>
+            <label for="">Hindi</label>
+
+            <input type="checkbox" id="checkbox" name="checkbox" placeholder="checkbox" value="Hindi" required>
+            <span> This is a checkbox and used to select more than one options  </span>
+            <br>
+            <label for="">English</label>
+
+            <input type="checkbox" id="checkbox" name="checkbox" placeholder="checkbox" value="English" required>
+            <span> This is a checkbox and used to select more than one options  </span>
+        </fieldset>
+
+        <fieldset>
+            <legend>Color</legend>
+            
+            <input type="Color" id="Color" name="Color" >
+            <span> this is a color box. </span>
+        </fieldset>
+        <fieldset>
+            <legend> date</legend>
+           
+            <input type="date" id="date" name="date" >
+            <span> This is an date</span>
+        </fieldset>
+        <fieldset>
+            <legend>DateTime</legend>
+            
+            <input type="datetime" id="datetime" name="datetime" >
+            <span> this is Datetime box.</span>
+        </fieldset>
+        <fieldset>
+            <legend>DateTime-Local</legend>
+            
+            <input type="datetime-local" id="datetime-local" name="datetime-local" >
+            <span> this is DateTime-Local box.</span>
+        </fieldset>
+        <fieldset>
+            <legend>Eamil</legend>
+            <label for="">Email id</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <span> this is an email box</span>
+        </fieldset>
+        <fieldset>
+            <legend>File</legend>
+            <input type="file" id="file" name="file">
+            <span> This is an file box </span>
+        </fieldset>
+        <fieldset>
+            <legend>hidden</legend>
+            <input type="hidden" id="hidden" name="hidden" >
+            <span> This is an hidden box.</span>
+        </fieldset>
+        <fieldset>
+        <legend>IMage</legend>
+        <input type="image" id="image" name="image" >
+        <span>this is an image box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>Month</legend>
+        <input type="month" name="month" id="month">
+        <span>this is an month box.</span>
+    </fieldset>
+    <fieldset>
+        <legend>Number</legend>
+        <input type="number" id="number" name="number">
+        <span>This is an Number box.</span>
+    </fieldset>
+    <fieldset>
+        <legend>Password</legend>
+        <input type="password" id="password" name="password">
+        <span> this is an password box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>Gender</legend>
+        <h3>select Gender;</h3>
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="male" value="male"><span>this is radio box is used for check the condition.</span>
+        <label for="">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female"><span>this is radio box is used for check the condition.</span>
+   
+    </fieldset>
+
+    <fieldset>
+        <legend>Range</legend>
+        <input type="range" id="range" name="range" value="80">
+        <span> this is a range box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>reset</legend>
+        <input type="reset" id="reset" name="reset" value="Reset">
+        <span> this is an  reset button. </span>
+    </fieldset>
+    <fieldset>
+        <legend>Search</legend>
+        <input type="search" id="search" name="search">
+        <span> this is an search box</span>
+    </fieldset>
+    <fieldset>
+        <legend>submit</legend>
+        <input type="submit" id="submit" name="submit" value="submit">
+        <span>This is a submit button. </span>
+    </fieldset>
+    <fieldset>
+        <legend>tel</legend>
+        <input type="tel" id="tel" name="tel">
+        <span> this is a Tel box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>time</legend>
+        <input type="time" id="time" name="time">
+        <span> this is a time box.</span>
+    </fieldset>
+    <fieldset>
+        <legend>url</legend>
+        <input type="url" id="url" name="url">
+        <span>this is an url box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>Week</legend>
+        <input type="Week" id="Week" name="Week">
+        <span> this is a week Box.</span>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <textarea type="Address" id="Address" name="Address" cols="30" rows="10"></textarea>
+        <span> this si a textarea box. </span>
+    </fieldset>
+    <fieldset>
+        <legend>Qualification</legend>
+        <label for=""> Select Your Qualification</label>
+
+        <select name="Qualification" id="Qualification">
+            <option value="10th">10th</option>
+            <option value="">12th</option>
+            <option value="">Diploma</option>
+            <option value="" selected>Degree</option>
+            <option value="">Master Degree</option>
+            <option value="Master Degree">Master Degree</option>
+            <option value="Master Degree"></option>
+            <option value="">Master Degree</option>
+
+            <optgroup>
+                <option value="">BE in CS</option>
+                <option value="">BE in MECH</option>
+                <option value="">BE in Civil</option>
+                <option value="">BE in EEE</option>
+                <option value="">BE in EC</option>
+            </optgroup>
+            <optgroup>
+                <option value="">ME in CS</option>
+                <option value="">ME in MECH</option>
+                <option value="">ME in Civil</option>
+                <option value="">ME in EEE</option>
+                <option value="">ME in EC</option>
+            </optgroup>
+        </select>
+        <span> </span>
+    </fieldset>
+    <fieldset>
+        <legend>Buttons</legend>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <button type="button">Cancel</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>
